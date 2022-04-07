@@ -1,21 +1,15 @@
-belts = {"Gamy": "blue", "Chris": "red"}
+belts = {}
 
-print(belts["Gamy"])
+while True: 
+  name = input("Enter a name")
+  belt = input("Enter a belt")
+  belts[name] = belt
 
-# this will error
-# print(belts[0])
+  another = input("Another yes or no?")
+  if (another =="yes"):
+    continue
+  else:
+    break
 
-# this will return false
-print("Cullen" in belts)
 
-# this will return true
-print("Chris" in belts)
-
-print(list(belts.keys()))
-print(list(belts.values()))
-
-# adding a belt
-belts["Cullen"] = "black"
-
-print(list(belts.keys()))
-print(list(belts.values()))
+print(belts)
