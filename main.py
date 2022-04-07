@@ -1,15 +1,21 @@
-# variable scope
-# global scop
-my_name = "Gamy"
+belts = {"Gamy": "blue", "Chris": "red"}
 
-def print_name():
-  # can be overriden
-  #we can update it to go global my_name then my_name = Jonn
-  my_name = "John"
-  print("The name inside the fuction is", my_name)
+print(belts["Gamy"])
 
-  
+# this will error
+# print(belts[0])
 
-print("the name outside the function is", my_name)
+# this will return false
+print("Cullen" in belts)
 
-print_name()
+# this will return true
+print("Chris" in belts)
+
+print(list(belts.keys()))
+print(list(belts.values()))
+
+# adding a belt
+belts["Cullen"] = "black"
+
+print(list(belts.keys()))
+print(list(belts.values()))
