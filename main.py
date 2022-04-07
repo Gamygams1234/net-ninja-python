@@ -1,8 +1,22 @@
-ninjas = ["ryu", "Yoshi", "ken", "homie"]
+# for n in range(5):
+#   print(n)
 
-for ninja in ninjas:
-  print(ninja)
 
-# prints Yoshi and ken
-for ninja in ninjas[1:3]:
-  print(ninja)
+# from 3 to 9
+for n in range(3, 10):
+  print(n)
+
+
+# going  by 4 including the 0
+# for n in range(0, 20,4):
+#   print(n)
+
+burgers = ['beef', "checken", 'birria']
+
+
+for n in range(len(burgers)):
+  print(burgers[n])
+
+# this is going backward in the range
+for n in range(len(burgers)-1, -1, -1):
+  print(burgers[n])
