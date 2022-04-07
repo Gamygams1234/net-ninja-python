@@ -1,9 +1,8 @@
-age = int(input("What is your age?"))
+ninjas = ["ryu", "Yoshi", "ken", "homie"]
 
+for ninja in ninjas:
+  print(ninja)
 
-if age< 10:
-  print("You are young")
-elif age<40:
-  print("You are middle age")
-else:
-  print("You are old")
+# prints Yoshi and ken
+for ninja in ninjas[1:3]:
+  print(ninja)
