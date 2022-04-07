@@ -1,9 +1,9 @@
-name = input("Tell me your name punk:")
+age = int(input("What is your age?"))
 
-print("Hello "+ name)
 
-total = input("Type in the price")
-
-#  have to type cast to int for input
-print(int(total)* 1.08)
-
+if age< 10:
+  print("You are young")
+elif age<40:
+  print("You are middle age")
+else:
+  print("You are old")
