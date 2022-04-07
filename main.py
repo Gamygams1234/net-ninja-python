@@ -1,20 +1,31 @@
-#  everything in python is considered an object
+#  strings in sigle quotes or double
 
-# integer
-print(type(7))
-# float
-print(type(7.5))
+string = "he's a mad man"
 
-# returns int
-5*5
-# returns int
-5+5
-# returns int
-5-5
-# returns float
-5/5
-# returns int and still 5
-5//5
+# proper with single quotes
+string = 'he\'s a mad man'
 
-# this is to the power of
-5**5
+greet = "hello"
+
+# h
+greet[0]
+
+# h
+greet[-1]
+
+# to upper case
+greet.upper()
+# to lower case
+greet.lower()
+# to capitalize letter 
+greet.title()
+# remove white space
+greet.strip()
+
+chesses = "brie, goutda, cheddar"
+
+#  returns a list
+chesses.split(", ")
+
+#  returns length
+len(greet)
