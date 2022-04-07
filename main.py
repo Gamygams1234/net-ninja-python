@@ -15,3 +15,6 @@ print(type(7.5))
 5/5
 # returns int and still 5
 5//5
+
+# this is to the power of
+5**5
