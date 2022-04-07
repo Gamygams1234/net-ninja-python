@@ -1,17 +1,9 @@
-chesses = "brie, gouda, cheddar"
-cheeses=chesses.split(", ")
-print(cheeses[0])
-fib = [2,4,6,8]
+name = input("Tell me your name punk:")
 
+print("Hello "+ name)
 
-# cannot append strings
-fib.append(2)
-print(cheeses[-1])
-print(fib)
-cheeses.pop()
-print(cheeses)
+total = input("Type in the price")
 
-# removes first instance
-fib.remove(2)
-print(fib)
+#  have to type cast to int for input
+print(int(total)* 1.08)
 
