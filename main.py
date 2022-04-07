@@ -1,15 +1,17 @@
-belts = {}
+class Planet:
+  def __init__(self):
+    self.name = "Hoth"
+    self.radius = 200000
+    self.gravity = 5.5
+    self.system = "Hoth Systems"
 
-while True: 
-  name = input("Enter a name")
-  belt = input("Enter a belt")
-  belts[name] = belt
-
-  another = input("Another yes or no?")
-  if (another =="yes"):
-    continue
-  else:
-    break
+  def orbit(self):
+    print(self.name+ " is orbiting")
 
 
-print(belts)
+hoth = Planet()
+
+print(hoth.name)
+print(hoth.radius)
+print(hoth.gravity)
+hoth.orbit()
